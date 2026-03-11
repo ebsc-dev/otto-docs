@@ -45,19 +45,6 @@ export default defineNuxtConfig({
           type: 'image/png',
           sizes: '16x16',
           href: '/favicon-16x16.png'
-        },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.googleapis.com'
-        },
-        {
-          rel: 'preconnect',
-          href: 'https://fonts.gstatic.com',
-          crossorigin: ''
-        },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap'
         }
       ]
     }
