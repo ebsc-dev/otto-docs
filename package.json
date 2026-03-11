@@ -1,0 +1,20 @@
+{
+  "name": "otto-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.13.4",
+    "@nuxt/ui": "^2.21.0",
+    "nuxt": "^3.15.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^2.3.0"
+  }
+}
