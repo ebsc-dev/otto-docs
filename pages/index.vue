@@ -10,11 +10,6 @@
       <p class="text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto">
         AI-powered development automation. Turn Linear tickets into pull requests automatically.
       </p>
-      <div class="flex justify-center gap-4">
-        <UButton to="/docs/getting-started/introduction" size="lg">
-          Get Started
-        </UButton>
-      </div>
       
       <div class="mt-20 grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
         <NuxtLink to="/docs/getting-started/introduction" class="block p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow">
