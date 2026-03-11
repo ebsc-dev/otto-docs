@@ -14,7 +14,7 @@ export default defineNuxtConfig({
 
   ui: {
     colors: {
-      primary: 'cyan',
+      primary: 'blue',
       neutral: 'zinc'
     },
     icons: ['heroicons']

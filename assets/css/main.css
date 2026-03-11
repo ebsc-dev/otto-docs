@@ -1,18 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
-  /* Otto brand color scale (cyan/teal accent) */
-  --color-otto-50: #ecfeff;
-  --color-otto-100: #cffafe;
-  --color-otto-200: #a5f3fc;
-  --color-otto-300: #67e8f9;
-  --color-otto-400: #22d3ee;
-  --color-otto-500: #06b6d4;
-  --color-otto-600: #0891b2;
-  --color-otto-700: #0e7490;
-  --color-otto-800: #155e75;
-  --color-otto-900: #164e63;
-  --color-otto-950: #083344;
+  /* Otto brand color - blue from fullotto.app */
+  --color-otto: oklch(0.715 0.143 215.221);
   
   /* Fonts */
   --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
