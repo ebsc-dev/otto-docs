@@ -16,36 +16,46 @@
         </UButton>
       </div>
       
-      <div class="mt-20 grid md:grid-cols-3 gap-8 text-left">
-        <div class="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700">
+      <div class="mt-20 grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+        <NuxtLink to="/docs/getting-started/introduction" class="block p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mb-4">
+            <UIcon name="i-heroicons-rocket-launch" class="w-5 h-5 text-primary-500" />
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Getting Started</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            Quick setup guide, core concepts, and your first Otto agent.
+          </p>
+        </NuxtLink>
+        
+        <NuxtLink to="/docs/use-cases/ticket-to-pr" class="block p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow">
           <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mb-4">
             <UIcon name="i-heroicons-bolt" class="w-5 h-5 text-primary-500" />
           </div>
-          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Automate Dev Work</h3>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Use Cases</h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">
-            Otto connects to Linear and GitHub, turning tickets into working code and PRs.
+            Ticket-to-PR automation, PR feedback loops, and issue clarification.
           </p>
-        </div>
+        </NuxtLink>
         
-        <div class="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700">
-          <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mb-4">
-            <UIcon name="i-heroicons-chat-bubble-left-right" class="w-5 h-5 text-primary-500" />
-          </div>
-          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">PR Feedback Loop</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-400">
-            Otto responds to code review comments and makes changes automatically.
-          </p>
-        </div>
-        
-        <div class="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700">
+        <NuxtLink to="/docs/workflows/linear-integration" class="block p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow">
           <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mb-4">
             <UIcon name="i-heroicons-cog-6-tooth" class="w-5 h-5 text-primary-500" />
           </div>
-          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Configurable Agents</h3>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Workflows</h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">
-            Set up agents with custom prompts, models, and triggers for your workflow.
+            Linear & GitHub integrations, agent configuration, and triggers.
           </p>
-        </div>
+        </NuxtLink>
+
+        <NuxtLink to="/docs/billing/overview" class="block p-6 rounded-xl bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow">
+          <div class="w-10 h-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center mb-4">
+            <UIcon name="i-heroicons-credit-card" class="w-5 h-5 text-primary-500" />
+          </div>
+          <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Billing</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            Pricing tiers, token usage, and cost optimization tips.
+          </p>
+        </NuxtLink>
       </div>
     </div>
   </div>
