@@ -13,10 +13,6 @@ export default defineNuxtConfig({
   },
 
   ui: {
-    colors: {
-      primary: 'cyan',
-      neutral: 'zinc'
-    },
     icons: ['heroicons']
   },
 
