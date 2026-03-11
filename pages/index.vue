@@ -1,8 +1,11 @@
 <template>
   <div class="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
     <div class="max-w-4xl mx-auto px-4 py-20 text-center">
+      <div class="mb-8">
+        <img src="/logo-full.png" alt="Otto" class="h-20 mx-auto" />
+      </div>
       <h1 class="text-5xl font-bold text-gray-900 dark:text-white mb-6">
-        <span class="text-primary-500">Otto</span> Documentation
+        Documentation
       </h1>
       <p class="text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto">
         AI-powered development automation. Turn Linear tickets into pull requests automatically.
@@ -10,15 +13,6 @@
       <div class="flex justify-center gap-4">
         <UButton to="/docs/getting-started/introduction" size="lg">
           Get Started
-        </UButton>
-        <UButton 
-          to="https://github.com/ebsc-dev/otto" 
-          target="_blank" 
-          variant="outline" 
-          size="lg"
-          icon="i-simple-icons-github"
-        >
-          GitHub
         </UButton>
       </div>
       

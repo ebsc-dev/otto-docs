@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Otto brand color scale (cyan/teal accent) */
+  --color-otto-50: #ecfeff;
+  --color-otto-100: #cffafe;
+  --color-otto-200: #a5f3fc;
+  --color-otto-300: #67e8f9;
+  --color-otto-400: #22d3ee;
+  --color-otto-500: #06b6d4;
+  --color-otto-600: #0891b2;
+  --color-otto-700: #0e7490;
+  --color-otto-800: #155e75;
+  --color-otto-900: #164e63;
+  --color-otto-950: #083344;
+}
+
+::selection {
+  background-color: rgba(6, 182, 212, 0.2);
+}
+
+/* Scrollbar styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme(--color-zinc-300) transparent;
+}
+.dark * {
+  scrollbar-color: theme(--color-zinc-700) transparent;
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font smoothing */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
