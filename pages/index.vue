@@ -11,9 +11,9 @@
         AI-powered development automation. Turn Linear tickets into pull requests automatically.
       </p>
       <div class="flex justify-center gap-4">
-        <UButton to="/docs/getting-started/introduction" size="lg">
+        <NuxtLink to="/docs/getting-started/introduction" class="btn-otto px-6 py-3 rounded-md font-semibold text-lg">
           Get Started
-        </UButton>
+        </NuxtLink>
       </div>
       
       <div class="mt-20 grid md:grid-cols-3 gap-8 text-left">
