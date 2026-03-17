@@ -8,7 +8,7 @@
         Documentation
       </h1>
       <p class="text-xl text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto">
-        AI-powered development automation. Turn Linear tickets into pull requests automatically.
+        AI-powered development automation. Turn tickets into pull requests automatically.
       </p>
       
       <div class="mt-20 grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
@@ -38,7 +38,7 @@
           </div>
           <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Workflows</h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">
-            Linear & GitHub integrations, agent configuration, and triggers.
+            Integrations, agent configuration, and triggers for your tools.
           </p>
         </NuxtLink>
 
@@ -48,7 +48,7 @@
           </div>
           <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Billing</h3>
           <p class="text-sm text-gray-600 dark:text-gray-400">
-            Pricing tiers, token usage, and cost optimization tips.
+            Token usage, credit management, and cost optimization tips.
           </p>
         </NuxtLink>
       </div>
