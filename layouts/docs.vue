@@ -16,7 +16,7 @@
     
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="lg:grid lg:grid-cols-[250px_1fr] lg:gap-8">
-        <aside class="hidden lg:block">
+        <aside class="hidden lg:block sticky top-20 self-start h-[calc(100vh-6rem)] overflow-y-auto">
           <DocsNav />
         </aside>
         <main class="prose dark:prose-invert max-w-none">
